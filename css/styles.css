@@ -156,6 +156,11 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+.secondary-btn:hover,
+.secondary-btn:focus {
+  background-color: var(--pressed-state);
+  color: var(--background-white);
+}
 .secondary-btn {
   border: 2px solid transparent;
   border-radius: 5px;
