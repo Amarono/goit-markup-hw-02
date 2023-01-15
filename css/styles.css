@@ -32,6 +32,7 @@ body {
   font-family: 'Raleway';
   font-weight: 800;
   line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .logo-dark {
@@ -39,6 +40,7 @@ body {
   font-family: 'Raleway';
   font-weight: 800;
   line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -47,6 +49,7 @@ body {
   font-family: 'Raleway';
   font-weight: 800;
   line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 /* Navigation */
@@ -55,6 +58,7 @@ body {
   font-weight: 500;
   line-height: calc(24 / 16);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -69,6 +73,7 @@ body {
   color: var(--text);
   font-weight: 400;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
 }
 
 .contact-list {
@@ -83,13 +88,16 @@ body {
   color: var(--background-white);
   font-weight: 700;
   line-height: calc(60 / 56);
+  letter-spacing: 0.02em;
 }
 /* Button */
 .primary-btn {
+  font-family: inherit;
   color: var(--background-white);
   background-color: var(--primary-brand);
   font-weight: 500;
   line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -106,12 +114,14 @@ body {
   font-family: 'Roboto';
   font-weight: 500;
   line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
 }
 /* What are we doing */
 .section-title {
   color: var(--dark);
   font-weight: 700;
   line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
 }
 /* Our team */
 .section-team {
@@ -126,9 +136,38 @@ body {
   color: var(--dark);
   font-weight: 500;
   line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
 }
 /* Footer */
 .footer {
   color: var(--accent);
   background-color: var(--dark);
+}
+
+/* Portfolio */
+
+/* Filter */
+.secondary-btn {
+  font-family: inherit;
+  color: var(--primary-brand);
+  background-color: var(--light);
+  font-weight: 500;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.secondary-btn {
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.section-filter {
+  list-style: none;
+}
+
+.section-title {
+  color: var(--dark);
+  font-weight: 500;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
 }
