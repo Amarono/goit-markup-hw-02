@@ -17,8 +17,6 @@ body {
   font-family: 'Roboto', 'sans-serif';
   color: var(--text);
   letter-spacing: 0.02em;
-  font-weight: 400;
-  line-height: calc(24 / 16);
   background-color: var(--background-white);
 }
 /* Current color */
@@ -30,6 +28,7 @@ body {
 .logo {
   color: var(--primary-brand);
   font-family: 'Raleway';
+  font-size: 18px;
   font-weight: 800;
   line-height: calc(21 / 18);
   letter-spacing: 0.03em;
@@ -38,6 +37,7 @@ body {
 .logo-dark {
   color: var(--dark);
   font-family: 'Raleway';
+  font-size: 18px;
   font-weight: 800;
   line-height: calc(21 / 18);
   letter-spacing: 0.03em;
@@ -47,6 +47,7 @@ body {
 .logo-light {
   color: var(--light);
   font-family: 'Raleway';
+  font-size: 18px;
   font-weight: 800;
   line-height: calc(21 / 18);
   letter-spacing: 0.03em;
@@ -86,7 +87,7 @@ body {
 
 .hero-title {
   color: var(--background-white);
-  font-weight: 700;
+  font-size: 56px;
   line-height: calc(60 / 56);
   letter-spacing: 0.02em;
 }
@@ -95,6 +96,7 @@ body {
   font-family: inherit;
   color: var(--background-white);
   background-color: var(--primary-brand);
+  font-size: 16px;
   font-weight: 500;
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
@@ -111,7 +113,7 @@ body {
 }
 .undertitle {
   color: var(--dark);
-  font-family: 'Roboto';
+  font-size: 20px;
   font-weight: 500;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
@@ -119,7 +121,7 @@ body {
 /* What are we doing */
 .section-title {
   color: var(--dark);
-  font-weight: 700;
+  font-size: 36px;
   line-height: calc(40 / 36);
   letter-spacing: 0.02em;
 }
@@ -130,13 +132,6 @@ body {
 
 .section-card {
   background-color: var(--background-white);
-}
-
-.undertitle {
-  color: var(--dark);
-  font-weight: 500;
-  line-height: calc(24 / 20);
-  letter-spacing: 0.02em;
 }
 /* Footer */
 .footer {
@@ -151,6 +146,7 @@ body {
   font-family: inherit;
   color: var(--primary-brand);
   background-color: var(--light);
+  font-size: 16px;
   font-weight: 500;
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
@@ -170,9 +166,9 @@ body {
   list-style: none;
 }
 
-.section-title {
-  color: var(--dark);
+.section-title-portfolio {
   font-weight: 500;
+  font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
 }
